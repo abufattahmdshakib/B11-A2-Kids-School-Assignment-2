@@ -1,0 +1,95 @@
+/* import url for Quicksand font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+header {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+/* share commone styles */
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.display-one {
+    display: flex;
+}
+
+.display-two {
+    display: grid;
+}
+
+/* online font Quicksand and serif */
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.font-color-one{
+    color: rgb(17, 17, 17);
+}
+.pry-color-one {
+    color: rgb(254, 163, 1);
+}
+
+.pry-color-two {
+    color: rgb(1, 172, 253);
+}
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-school{
+    align-items: center;
+    gap:20px;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+}
+.school{
+    font-size: 2rem;
+    text-align: left;
+}
+/* anchor related styles */
+.nav-anchor{
+    gap: 30px;
+}
+
+.anchor{
+    text-decoration: none;
+}
+.home{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.About{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(1, 172, 253);
+}
+.Facilities{
+    font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(1, 172, 253);
+}
+.Admission{
+    font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(93, 88, 239);
+}
+/* button related styles */
+.content{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 8px 25px;
+    border: 0px;
+    border-radius: 8px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(254, 163, 1);
+}
