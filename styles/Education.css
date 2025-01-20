@@ -25,13 +25,15 @@ header {
 }
 
 /* online font Quicksand and serif */
-.quicksand{
+.quicksand {
     font-family: "Quicksand", serif;
     font-weight: 700;
 }
-.font-color-one{
+
+.font-color {
     color: rgb(17, 17, 17);
 }
+
 .pry-color-one {
     color: rgb(254, 163, 1);
 }
@@ -39,57 +41,183 @@ header {
 .pry-color-two {
     color: rgb(1, 172, 253);
 }
+
 /* navbar related styles */
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
 }
-.logo-school{
+
+.logo-school {
     align-items: center;
-    gap:20px;
+    gap: 20px;
 }
-.logo{
+
+.logo {
     width: 45px;
     height: 45px;
 }
-.school{
+
+.school {
     font-size: 2rem;
     text-align: left;
 }
+
 /* anchor related styles */
-.nav-anchor{
+.nav-anchor {
     gap: 30px;
 }
 
-.anchor{
+.anchor {
     text-decoration: none;
 }
-.home{
+
+.home {
     font-size: 1.3rem;
     font-weight: 700;
 }
-.About{
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: rgb(1, 172, 253);
-}
-.Facilities{
+
+.About {
     font-size: 1.3rem;
-  font-weight: 500;
-  color: rgb(1, 172, 253);
+    font-weight: 500;
+    color: rgb(1, 172, 253);
 }
-.Admission{
+
+.Facilities {
     font-size: 1.3rem;
-  font-weight: 500;
-  color: rgb(93, 88, 239);
+    font-weight: 500;
+    color: rgb(5, 212, 223);
 }
+
+.Admission {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+}
+
 /* button related styles */
-.content{
+.Contact {
     font-size: 1.3rem;
     font-weight: 500;
     padding: 8px 25px;
     border: 0px;
     border-radius: 8px;
-    color:rgb(255, 255, 255);
-    background-color:rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 163, 1);
+
+}
+
+/* menu-bar */
+.menu-bar {
+    display: none;
+}
+
+/* Empowering
+students from small age towards vision */
+.Empowering {
+
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 5px;
+
+}
+
+.Empowering-student {
+    margin-top: 120px;
+}
+
+.Empowering-title {
+    font-size: 3.5rem;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+.Empowering-descraiption {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 85%;
+}
+
+.Enroll {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 17, 17);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.hero-kids {
+    width: 370px;
+    height: auto;
+}
+
+
+/* <i class="fa-solid fa-bars"></i> */
+/* <i class="fa-solid fa-chevron-right"></i> */
+/* <i class="fa-solid fa-chevron-left"></i> */
+
+
+/* @media screen and (max-width:960px) {} */
+@media screen and (max-width:360px) {
+    .container {
+        width: 360px;
+        margin: 0px auto;
+    }
+
+    .navbar {
+        align-items: center;
+        border-bottom: 2px solid rgb(254, 163, 1);
+        padding: 0px 12px 0px 8px;
+
+    }
+
+    .school,
+    .nav-anchor,
+    .Contact {
+        display: none;
+    }
+
+    .logo {
+
+        align-items: center;
+
+    }
+
+    .menu-bar {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .Empowering {
+        flex-direction: column-reverse;
+    }
+
+    .Empowering-students {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-kids {
+        width: 300px;
+        margin: -18px auto;
+    }
+
+    .Empowering-title {
+        font-size: 2rem;
+        text-align: center;
+        width: 92%;
+        margin: 20px auto;
+    }
+
+    .Empowering-descraiption {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        margin: 15px auto;
+    }
+
 }
