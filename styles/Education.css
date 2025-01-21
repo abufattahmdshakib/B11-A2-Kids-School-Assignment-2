@@ -458,21 +458,24 @@ Conversation rhymes improve kids listening related styles*/
     justify-content: center;
     text-align: center;
 }
+
 /* marquee */
-.marquee-container{
-    margin:  60px 0px 20px 0px ;
+.marquee-container {
+    margin: 60px 0px 20px 0px;
 }
-.marquee{
+
+.marquee {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-family: "Quicksand", serif;
     font-weight: 700;
     padding: 10px;
-    background-color:rgb(1, 172, 253) ;
+    background-color: rgb(1, 172, 253);
     justify-content: center;
     align-items: center;
     height: 50%;
 }
+
 /* footer-secttion */
 .footer-secttion {
     background: rgb(1, 172, 253);
@@ -516,7 +519,7 @@ Conversation rhymes improve kids listening related styles*/
 
 .Our-vision {
     color: rgb(255, 255, 255);
-    font-family:"Quicksand";
+    font-family: "Quicksand";
     font-size: 1.2rem;
     font-weight: 400;
     margin-top: 0px;
@@ -637,22 +640,25 @@ Conversation rhymes improve kids listening related styles*/
         grid-template-columns: repeat(2, 158px);
         gap: 10px;
     }
+
     .story-title {
         font-size: .95rem;
 
     }
+
     .story-button-color-one {
         font-size: .60rem;
         margin-top: -110px;
         margin-left: 10px;
     }
+
     .story-button {
         font-size: .60rem;
         top: 80px;
         margin-top: 0px;
         margin-left: 10px;
     }
-    
+
     .View {
         margin-top: 60px;
     }
@@ -664,15 +670,17 @@ Conversation rhymes improve kids listening related styles*/
     #all-story-two {
         display: block;
     }
-    .marquee-container{
+
+    .marquee-container {
         max-width: 320px;
         margin: 0px auto;
         width: 100%;
     }
-    .marquee{
+
+    .marquee {
         font-size: 1rem;
         padding: 5px;
-        
+
     }
 
     .footer-secttion {
