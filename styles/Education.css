@@ -634,7 +634,7 @@ Conversation rhymes improve kids listening related styles*/
     }
 
     .story-container {
-        grid-template-columns: repeat(2, 165px);
+        grid-template-columns: repeat(2, 158px);
         gap: 10px;
     }
     .story-title {
@@ -665,8 +665,9 @@ Conversation rhymes improve kids listening related styles*/
         display: block;
     }
     .marquee-container{
-        /* overflow: hidden; */
-        overflow-x: hidden;
+        max-width: 320px;
+        margin: 0px auto;
+        width: 100%;
     }
     .marquee{
         font-size: 1rem;
