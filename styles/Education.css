@@ -458,7 +458,21 @@ Conversation rhymes improve kids listening related styles*/
     justify-content: center;
     text-align: center;
 }
-
+/* marquee */
+.marquee-container{
+    margin:  60px 0px 20px 0px ;
+}
+.marquee{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    padding: 10px;
+    background-color:rgb(1, 172, 253) ;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
 /* footer-secttion */
 .footer-secttion {
     background: rgb(1, 172, 253);
@@ -649,6 +663,15 @@ Conversation rhymes improve kids listening related styles*/
 
     #all-story-two {
         display: block;
+    }
+    .marquee-container{
+        /* overflow: hidden; */
+        overflow-x: hidden;
+    }
+    .marquee{
+        font-size: 1rem;
+        padding: 5px;
+        
     }
 
     .footer-secttion {
