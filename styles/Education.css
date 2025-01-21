@@ -108,6 +108,7 @@ header {
 }
 
 /* menu-bar */
+/* <i class="fa-solid fa-bars"></i> */
 .menu-bar {
     display: none;
 }
@@ -134,7 +135,7 @@ students from small age towards vision */
     margin-bottom: 0px;
 }
 
-.Empowering-descraiption {
+.Empowering-description {
     font-size: 1.3rem;
     font-weight: 400;
     width: 85%;
@@ -153,10 +154,116 @@ students from small age towards vision */
     height: auto;
 }
 
+/* Standard Curriculum */
 
-/* <i class="fa-solid fa-bars"></i> */
-/* <i class="fa-solid fa-chevron-right"></i> */
+.card-header {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-container {
+    gap: 90px;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    width: 280px;
+    height: 400px;
+    margin: 35px auto;
+    padding-top: 50px;
+}
+
+#card-one {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+#card-two {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+#card-three {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-title {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-description {
+    color: rgb(128, 128, 128);
+    font-family: "Raleway";
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    width: 70%;
+    margin: 15px auto;
+}
+
+.card-button {
+    border: 0px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#one {
+    color: rgb(100, 200, 255);
+}
+
+#two {
+    color: rgb(254, 163, 1);
+}
+
+#three {
+    color: rgb(135, 0, 255);
+}
+
+.laft-right {
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto 30px auto;
+}
+
 /* <i class="fa-solid fa-chevron-left"></i> */
+.fa-left {
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 35px;
+    width: 62px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+}
+
+/* <i class="fa-solid fa-chevron-right"></i> */
+.fa-right {
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 35px;
+    width: 62px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+}
 
 
 /* @media screen and (max-width:960px) {} */
@@ -213,7 +320,7 @@ students from small age towards vision */
         margin: 20px auto;
     }
 
-    .Empowering-descraiption {
+    .Empowering-description {
         font-size: 1rem;
         text-align: center;
         width: 100%;
