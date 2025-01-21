@@ -282,7 +282,8 @@ students from small age towards vision */
 
     .school,
     .nav-anchor,
-    .Contact {
+    .Contact ,
+    .laft-right{
         display: none;
     }
 
@@ -325,6 +326,13 @@ students from small age towards vision */
         text-align: center;
         width: 100%;
         margin: 15px auto;
+    }
+    .card-header {
+        font-size: 1.8rem;
+        margin-top: 60px;
+    }
+    .card-container {
+        flex-direction: column;
     }
 
 }
