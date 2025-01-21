@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo-school {
     align-items: center;
     gap: 20px;
@@ -60,11 +61,13 @@ header {
     width: 45px;
     height: 45px;
 }
-.Contact:hover{
-    transform:scale(1.4 ,1.4) ;
+
+.Contact:hover {
+    transform: scale(1.4, 1.4);
     transition: transform;
     transition: .5s;
 }
+
 .school {
     font-size: 2rem;
     text-align: left;
@@ -83,6 +86,7 @@ header {
     font-size: 1.3rem;
     font-weight: 700;
 }
+
 .About {
     font-size: 1.3rem;
     font-weight: 500;
@@ -154,11 +158,13 @@ students from small age towards vision */
     border-radius: 8px;
     padding: 5px 15px;
 }
-.Enroll:hover{
-    transform:scale(1.4 ,1.4) ;
+
+.Enroll:hover {
+    transform: scale(1.4, 1.4);
     transition: transform;
     transition: .5s;
 }
+
 .hero-kids {
     width: 370px;
     height: auto;
@@ -193,11 +199,13 @@ students from small age towards vision */
     margin: 35px auto;
     padding-top: 50px;
 }
-.card:hover{
-    transform:scale(1.1 ,1.2);
+
+.card:hover {
+    transform: scale(1.1, 1.2);
     transition: transform;
     transition: .6s;
 }
+
 #card-one {
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
@@ -275,10 +283,12 @@ students from small age towards vision */
     border-radius: 50%;
     background-color: rgb(254, 163, 1);
 }
-.fa-left:hover{
-    transform:scale(1.2 ,1.2) translatex(-70px) ;
+
+.fa-left:hover {
+    transform: scale(1.2, 1.2);
     transition: transform;
-    transition: 2s;
+    transition: .6s;
+    background-color: rgb(1, 172, 253);
 }
 
 /* <i class="fa-solid fa-chevron-right"></i> */
@@ -291,11 +301,14 @@ students from small age towards vision */
     border-radius: 50%;
     background-color: rgb(254, 163, 1);
 }
-.fa-right:hover{
-    transform:scale(1.2 ,1.2) translatex(70px) ;
+
+.fa-right:hover {
+    transform: scale(1.2, 1.2);
     transition: transform;
-    transition: 2s;
+    transition: .6s;
+    background-color: rgb(1, 172, 253);
 }
+
 /* Our Stories is 2nd section related styles */
 .background-img-and-color {
     background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -354,7 +367,7 @@ students from small age towards vision */
     border-radius: 47px;
     background: rgb(60, 216, 232);
     position: absolute;
-    margin-top: 57%;
+    margin-top: 55%;
     margin-left: 8%;
 }
 
@@ -406,9 +419,11 @@ Conversation rhymes improve kids listening related styles*/
     font-size: 1.1rem;
     text-align: left;
 }
-.story-img img{
+
+.story-img img {
     width: 100%;
 }
+
 .story-images {
     border-radius: 16px 16px 0px 0px;
 }
@@ -427,11 +442,13 @@ Conversation rhymes improve kids listening related styles*/
     text-align: center;
     margin-top: 90px;
 }
-.View-all:hover{
-    transform:scale(1.4 ,1.4) ;
+
+.View-all:hover {
+    transform: scale(1.4, 1.4);
     transition: transform;
     transition: .5s;
 }
+
 .View-all {
     color: rgb(255, 255, 255);
     padding: 5px 15px;
@@ -524,7 +541,7 @@ Conversation rhymes improve kids listening related styles*/
     .navbar {
         align-items: center;
         border-bottom: 2px solid rgb(254, 163, 1);
-        padding: 0px 12px 0px 8px;
+        padding: 0px 10px 0px 8px;
     }
 
     .school,
@@ -565,14 +582,14 @@ Conversation rhymes improve kids listening related styles*/
     .Empowering-title {
         font-size: 2rem;
         text-align: center;
-        width: 92%;
+        width: 94%;
         margin: 20px auto;
     }
 
     .Empowering-description {
         font-size: 1rem;
         text-align: center;
-        width: 100%;
+        width: 98%;
         margin: 15px auto;
     }
 
@@ -601,13 +618,30 @@ Conversation rhymes improve kids listening related styles*/
     .background-img-and-color {
         background: none;
     }
-  
-    .story-container {
-        grid-template-columns: repeat(2, 166px);
-        gap: 20px;
-    }
 
-    .all-story-block {}
+    .story-container {
+        grid-template-columns: repeat(2, 155px);
+        gap: 10px;
+    }
+    .story-title {
+        font-size: .95rem;
+
+    }
+    .story-button-color-one {
+        font-size: .60rem;
+        margin-top: -110px;
+        margin-left: 10px;
+    }
+    .story-button {
+        font-size: .60rem;
+        top: 80px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+    .View {
+        margin-top: 60px;
+    }
 
     #all-story-one {
         display: block;
@@ -619,7 +653,7 @@ Conversation rhymes improve kids listening related styles*/
 
     .footer-secttion {
         background: rgb(1, 172, 253);
-        margin: 280px auto;
+        margin: 60px auto;
         height: 850px;
     }
 
